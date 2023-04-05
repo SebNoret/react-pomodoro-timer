@@ -2,8 +2,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  /* margin: 0; */
-  /* padding: 0; */
 }
 :root {
   --parl: #a5522d;
@@ -21,11 +19,6 @@
   background: #f3d7ca;
 }
 body {
-  /* background: linear-gradient(
-    to bottom,
-    rgb(223, 215, 215),
-    var(--grey-chateau)
-  ); */
   background: #c8c8ee; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to bottom,
@@ -87,12 +80,10 @@ h1 {
   width: 100%;
   color: var(--zeus);
   /* background: #000; */
-  /* padding: 10px 20px; */
+
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  /* margin-top: 10vh; */
-  /* min-height: 50vh; */
 }
 .control-wrapper,
 .control-wrapper-active,
@@ -130,9 +121,9 @@ h1 {
 .title {
   /* background-color: seagreen; */
   font-size: 1.5rem;
-  /* height: 100%; */
+
   margin: 0;
-  /* padding: 0; */
+
   text-transform: capitalize;
 }
 @media screen and (max-width: 281px) {
@@ -149,9 +140,6 @@ h1 {
 .control {
   /* background-color: royalblue; */
   margin-top: -8rem;
-  /* margin: 0; */
-  /* display: flex;
-  align-items: center; */
 }
 .btn-group {
   display: flex;
@@ -177,7 +165,7 @@ h1 {
 }
 .btn-sign {
   font-size: 2rem;
-  /* padding: 0.2em 0.5em; */
+
   width: 2em;
   height: 1.5em;
 }
