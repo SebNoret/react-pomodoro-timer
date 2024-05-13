@@ -22,7 +22,7 @@ export default defineConfig({
    *
    * Change the base url to the local portfolio url if you want to test the app locally
    */
-  base: isProduction ? localPortfolioUrl : "/",
+  base: isProduction ? prodPortfolioUrl : "/",
   build: {
     minify: "esbuild",
   },
