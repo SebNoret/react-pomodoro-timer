@@ -4,8 +4,7 @@ import legacy from "@vitejs/plugin-legacy";
 import { createHtmlPlugin } from "vite-plugin-html";
 const isProduction = process.env.NODE_ENV === "production";
 const localPortfolioUrl = "http://localhost:1313/pomodoro/demo/";
-const prodPortfolioUrl =
-  "https://sebnoret-portfolio.netlify.app/pomodoro/demo/";
+const prodPortfolioUrl = "https://snt-portfolio.netlify.app/pomodoro/demo/";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
